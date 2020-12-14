@@ -1,131 +1,79 @@
 ---
 layout: cv
-title: Eralp Karaduman's CV
+title: Joohyung Park's CV
 ---
 
-# Eralp Karaduman
-Generalist Software Developer
+# Joohyung Park
+Software Engineer
 
-| __E-Mail__   | [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)              | 
-| __Website__  | [eralpkaraduman.com](https://eralpkaraduman.com)                         |
-| __LinkedIn__ | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
-| __Twitter__  | [twitter.com/eralpkaraduman](https://twitter.com/eralpkaraduman)         |
-
-## TLDR;
-
-- 13+ years in software dev
-- Now working as consultant making web & mobile apps using React and React Native.
-- Worked in games industry on internal tools and infrastructure for 2 years.
-- Mainly developed native iOS apps for about 6 years (swift, objc)
-- Also made Android apps and Backends on the side
-- Tried my own startup for a brief time
-- Recently became a full stack web developer for 2+ years (react, nodejs)
-- Before all I was a Flash developer when it used to be cool.
-- See below for code examples, open source personal projects.
+| __E-Mail__ | [joohyung.park@navercorp.com](joohyung.park@navercorp.com) |
+| __LinkedIn__ | [linkedin.com/in/park-joohyung-47333ab2](https://www.linkedin.com/in/park-joohyung-47333ab2) |
 
 ## Currently
 
-Based in Helsinki, Finland. Working on mobile apps as a consultant.
+Based in Suwon, South Korea. Working on distributed storage system as a software engineer
 
 
 ### Specialized in
 
-- Building digital products.
-- Cross Platform Android & iOS development with React Native and Flutter
-- Native iOS development with Swift
-- Web SPA's with javascript / React.
-- Building server applications with node.js on major cloud platforms.
-
-
-## Education
-
-`2005-2009`
-__Kadir Has University, Computer Science & Statistics Ba.__
+- Scaling out server-side applications based on microservice architecture
+- Designing / maintaining msa pods on kubernetes
+- Designing the trade-off in between availability / consistency / querypower
+- Multitiered metadata / data management
+- Performance optimization exploiting tracing techniques
+- System overload protection by circuit breaking
 
 
 ## Occupation
 
-`March 2019 - now`
-__Qvik__, Helsinki  
-_Senior Software Developer_
+`Sep 2016 - now`
+__Storage Platform__, Platform Labs, Naver
+_Software Engineer_
+
+`May 2011 - Feb 2013`
+__The 5th Signal Group__, Republic of Korea Defense Communication Command, Republic of Korea Armed Forces, Ministry of National Defense
+_Sergeant_
+
+## Projects
+
+- Nubes: An Infinite Object Storage based on Multi-tiered Heterogeneous Distributed Storages (Go)
+- eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
+- Strbench: An Random Load Generator / a Benchmark Tool for Generic Storage (Go)
 
 
-`Jan 2017 - February 2019`
-__Seriously Digital Entertainment__, Helsinki  
-_Technology Programmer_
+## Publications / Presentation
 
-- Working on web technology based internal tools (react, redux, node.js, typescript, docker).
-- Native plugin development for Unity3D (iOS/Obj-C & Android/Java).
+- Nubes on NCC: Lessons Learnt from The Migration of An MSA Storage Service onto K8S, Live Session, Naver Engineering Day 2020
+- 네이버에서 분산플랫폼 개발자로 일한다는 것, Live Session, Naver Open Class 2019
+- DDZTrace: An Online Semantic-aware Block Tracing Tool, Poster Presentation, FAST 2016
 
+## Technical Skills
 
-`Sep 2015 - Jan 2017`
-__DealDash__, Helsinki  
-_iOS Developer_
+- Hosting Environments
+  - Linux kernel
+    - I/O stack: vfs, mm, block, driver
+    - CPU scheduler: cfs
+	- Resource management: cgroup
+  - Kubernetes, helm chart
+  - Docker, docker-compose
+- System Tracing / Profiling
+  - Datasources: kprobes, tracepoints, uprobe, usdt
+  - Data extraction: eBPF, ftrace, perf
+  - Frontends: eBPF, trace-cmd, ftrace, perf
+- MSA Compoenets
+  - Databases: MongoDB, Redis, RocksDB, SQL
+  - Message Queue: Kafka
+  - Coordinator: Consul
+- Languages
+  - Go, C, Bash
+- Hardware-related Knowledges
+  - SSD internals(FTL, inter / intra architecture of SSD)
 
-- Built iOS App Dropio (Swift): A retail app with real time multiplayer game mechanics.
-- Also worked on backend (PhP7 / Symfony).
-- Participated in product development. 
+## Education
 
+`Sep 2014 - Aug 2016`
+_M.S., in Department of Electrical and Computer Engineering, Sungkyunkwan University, Republic of Korea [Advisor: Prof. Jin-Soo Kim]_
 
-`Sep 2014 - Oct 2016`
-__CupsOn.Me__, Dublin  
-_Co-Founder & iOS Developer_
+`Mar 2007 - Sep 2014`
+_B.S., in Department of Semiconductor System Engineering, Sungkyunkwan University, Republic of Korea_
 
-- Co-founded & Developed (iOS - Obj-C) a mobile first discovery &
-purchasing platform for 3rd wave coffee enthusiasts.
-
-
-`Apr 2015 - Aug 2015`
-__Hipo__, Istanbul  
-_iOS Developer_
-
-- Worked on a iOS (Obj-C) social network app for collectors named "Fielguide", 
-which included technically challenging user interfaces.
-([App Store Link](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
-
-
-`November 2012 - Apr 2015` 
-__Adphorus / Publik__, Istanbul  
-_Mobile (iOS & Android) Software Developer_
-
-- Worked on Adphorus, SaaS platform for facebook ads management.
-- Built native iOS (Objc-C) & Android (Java) clients for Adphorus.
-- Worked on Cevap.Tv, video how-to website. 
-- Built video playback components with google video ads integration (flash, as3, IMA SDK)
-- Built iPad / iPhone app clients (Obj-C)
-- Designed streaming video infrastracture (based on Wowza & AWS)
-- Built a video transcoding system (FFMpeg, node.js, AWS) & streaming-transcoding backend (node.js)
-
-
-`Sep 2008 - Nov 2012` __MagiClick__, Istanbul  
-_Senior Flash Developer & Team Leader_
-
-- Built websites and  advergames (Flash), 
-- Rich media campaigns combining electronics & software.
-- Early AR applications with Flash's c++ runtime.
-- Worked as team leader of  of 6 (2012)
-
-## Projects & Code Examples
-
-- `Flutter, Dart, iOS, Android` : [github.com/eralpkaraduman/FlutterGameKid](https://github.com/eralpkaraduman/FlutterGameKid)
-
-- `Flutter, Dart, iOS, Android` : [github.com/eralpkaraduman/event_dot_pizza](https://github.com/eralpkaraduman/event_dot_pizza)
-
-- `Full Stack, Docker, NodeJS, React, JavaScript` : [github.com/eralpkaraduman/weatherapp](https://github.com/eralpkaraduman/weatherapp)
-
-- `React, JavaScript` : [github.com/eralpkaraduman/savings-projects-frontend](http://github.com/eralpkaraduman/savings-projects-frontend)
-
-- `TypeScript, NodeJS` : [github.com/eralpkaraduman/unity-frontend-developer-assignment](https://github.com/eralpkaraduman/unity-frontend-developer-assignment)
-
-- `Python` : [github.com/eralpkaraduman/reddit-migrator](https://github.com/eralpkaraduman/reddit-migrator)
-
-- `React Native, Objective C` : [github.com/speechgrinder/react-native-sfspeechrecognizer](https://github.com/speechgrinder/react-native-sfspeechrecognizer)
-
-- `JavaScript, iOS, Cordova`
-  - Source: [github.com/eralpkaraduman/text-wallpaper-generator](https://github.com/eralpkaraduman/text-wallpaper-generator)
-  - Web: [https://textwallpaper.online](textwallpaper.online)
-  - App Store: [itunes.apple.com/fi/app/text-wallpaper/id1438319854?mt=8](https://itunes.apple.com/fi/app/text-wallpaper/id1438319854?mt=8)
-
-- `Jekyll, gh-pages, Ruby, Travis CI` : [https://github.com/eralpkaraduman/cv](https://github.com/eralpkaraduman/cv)
-
-- `Unity3D, C#, Objective C` : [github.com/eralpkaraduman/LennyTTSUnity](https://github.com/eralpkaraduman/LennyTTSUnity)
