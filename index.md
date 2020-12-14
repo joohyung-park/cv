@@ -6,7 +6,7 @@ title: Joohyung Park's CV
 # Joohyung Park
 Software Engineer
 
-| __E-Mail__ | [joohyung.park@navercorp.com](joohyung.park@navercorp.com) |
+| __E-Mail__ | [gcjoohyung@naver.com](gcjoohyung@naver.com) |
 | __LinkedIn__ | [linkedin.com/in/park-joohyung-47333ab2](https://www.linkedin.com/in/park-joohyung-47333ab2) |
 
 ## Currently
@@ -18,7 +18,7 @@ Based in Suwon, South Korea. Working on distributed storage system as a software
 
 - Scaling out server-side applications based on microservice architecture
 - Designing / maintaining msa pods on kubernetes
-- Designing the trade-off in between availability / consistency / querypower
+- Designing the trade-off in between availability / consistency / query power
 - Multitiered metadata / data management
 - Performance optimization exploiting tracing techniques
 - System overload protection by circuit breaking
@@ -57,10 +57,10 @@ _Sergeant_
   - Kubernetes, helm chart
   - Docker, docker-compose
 - System Tracing / Profiling
-  - Datasources: kprobes, tracepoints, uprobe, usdt
+  - Data sources: kprobe, tracepoint, uprobe, usdt
   - Data extraction: eBPF, ftrace, perf
   - Frontends: eBPF, trace-cmd, ftrace, perf
-- MSA Compoenets
+- MSA Components
   - Databases: MongoDB, Redis, RocksDB, SQL
   - Message Queue: Kafka
   - Coordinator: Consul
@@ -72,8 +72,8 @@ _Sergeant_
 ## Education
 
 `Sep 2014 - Aug 2016`
-_M.S., in Department of Electrical and Computer Engineering, Sungkyunkwan University, Republic of Korea [Advisor: Prof. Jin-Soo Kim]_
+M.S., in Department of Electrical and Computer Engineering, Sungkyunkwan University, Republic of Korea [Advisor: Prof. Jin-Soo Kim]
 
 `Mar 2007 - Sep 2014`
-_B.S., in Department of Semiconductor System Engineering, Sungkyunkwan University, Republic of Korea_
+B.S., in Department of Semiconductor System Engineering, Sungkyunkwan University, Republic of Korea
 
