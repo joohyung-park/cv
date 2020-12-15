@@ -38,10 +38,10 @@ _Sergeant_
 
 - Nubes: An Infinite Object Storage based on Multi-tiered Heterogeneous Distributed Storages (Go)
 - eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
-- Strbench: An Random Load Generator / a Benchmark Tool for Generic Storage (Go)
+- Strbench: A Random Load Generator / a Benchmark Tool for Generic Storages (Go)
 
 
-## Publications / Presentation
+## Publications / Presentations
 
 - Nubes on NCC: Lessons Learnt from The Migration of An MSA Storage Service onto K8S, Live Session, Naver Engineering Day 2020
 - 네이버에서 분산플랫폼 개발자로 일한다는 것, Live Session, Naver Open Class 2019
