@@ -55,6 +55,11 @@ _Sergeant_
 
 ## Technical Skills
 
+
+- Languages
+  - Typescript, Go, C, Bash
+- Framework
+  - NestJS, TypeORM
 - API technology
   - GraphQL
 - Hosting Environments
@@ -72,10 +77,6 @@ _Sergeant_
   - Databases: PostgreSQL, MongoDB, Redis, RocksDB
   - Message Queue: Kafka
   - Coordinator: Consul
-- Languages
-  - Typescript, Go, C, Bash
-- Framework
-  - NestJS, TypeORM
 - Hardware-related Knowledges
   - SSD internals(FTL, inter / intra architecture of SSD)
 
