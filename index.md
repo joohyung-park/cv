@@ -11,11 +11,12 @@ Software Engineer
 
 ## Currently
 
-Based in Suwon, South Korea. Working on distributed storage system as a software engineer
+Based in Suwon, South Korea. Working on backend engineer
 
 
 ### Specialized in
 
+- Serve backend service on tough domain rules via graphql
 - Scaling out server-side applications based on microservice architecture
 - Designing / maintaining msa pods on kubernetes
 - Designing the trade-off in between availability / consistency / query power
@@ -26,7 +27,11 @@ Based in Suwon, South Korea. Working on distributed storage system as a software
 
 ## Occupation
 
-`Sep 2016 - now`
+`Feb 2021 - now`
+__Healthcare__, Medibloc
+_Software Engineer_
+
+`Sep 2016 - Jan 2021`
 __Storage Platform__, Platform Labs, Naver
 _Software Engineer_
 
@@ -36,6 +41,7 @@ _Sergeant_
 
 ## Projects
 
+- Dr.palette: Cloud based EMR (Typescript)
 - Nubes: An Infinite Object Storage based on Multi-tiered Heterogeneous Distributed Storages (Go)
 - eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
 - Strbench: A Random Load Generator / a Benchmark Tool for Generic Storages (Go)
@@ -49,6 +55,8 @@ _Sergeant_
 
 ## Technical Skills
 
+- API technology
+  - GraphQL
 - Hosting Environments
   - Linux kernel
     - I/O stack: vfs, mm, block, driver
@@ -61,11 +69,13 @@ _Sergeant_
   - Data extraction: eBPF, ftrace, perf
   - Frontends: eBPF, trace-cmd, ftrace, perf
 - MSA Components
-  - Databases: MongoDB, Redis, RocksDB, SQL
+  - Databases: PostgreSQL, MongoDB, Redis, RocksDB
   - Message Queue: Kafka
   - Coordinator: Consul
 - Languages
-  - Go, C, Bash
+  - Typescript, Go, C, Bash
+- Framework
+  - NestJS, TypeORM
 - Hardware-related Knowledges
   - SSD internals(FTL, inter / intra architecture of SSD)
 
