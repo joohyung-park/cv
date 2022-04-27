@@ -16,7 +16,7 @@ Based in Suwon, South Korea. Working on backend engineer
 
 ### Specialized in
 
-- Serve backend service on tough domain rules via graphql
+- Serving backend service based on tough domain rules via graphql
 - Scaling out server-side applications based on microservice architecture
 - Designing / maintaining msa pods on kubernetes
 - Designing the trade-off in between availability / consistency / query power
