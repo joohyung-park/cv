@@ -19,7 +19,7 @@ Based in Yong-in, South Korea. Founding an intersting project
 - Railway oriented programming / Domain driven development
 - Backend services with GraphQL
 - Tough domain(HIRA rule) modeling
-- CNCF applications on kubernetes
+- Cloud native applications on kubernetes
 - Designing the trade-off in between availability / consistency / query power
 - Multitiered metadata / data management
 - Performance optimization exploiting tracing techniques
@@ -48,8 +48,8 @@ _Sergeant_
 
 - Ohwl: Finance modeling (Python)
 - Dr.palette: Cloud-based EMR (Typescript)
-- Nubes: An Infinite Object Storage based on Multi-tiered Heterogeneous Distributed Storages (Go)
-- eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
+- Nubes: Multi-tiered Heterogeneous Distributed Storages (Go)
+- DDZ on eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
 - Strbench: A Random Load Generator / a Benchmark Tool for Generic Storages (Go)
 
 
@@ -76,8 +76,7 @@ _Sergeant_
   - GraphQL
 - Hosting Environments
   - Cloud native
-    - Dapr
-    - Kubernetes, helm
+    - Dapr, Kubernetes, helm
   - Linux kernel
     - I/O stack: vfs, mm, block, driver
     - CPU scheduler: cfs
