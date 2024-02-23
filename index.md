@@ -49,8 +49,8 @@ _Sergeant_
 - Ohwl: Finance modeling (Python)
 - Dr.palette: Cloud-based EMR (Typescript)
 - Nubes: Multi-tiered Heterogeneous Distributed Storages (Go)
-- DDZ on eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
-- Strbench: A Random Load Generator / a Benchmark Tool for Generic Storages (Go)
+- DDZ on eBPF: User-defined IO Tracing on eBPF (Go / C)
+- Strbench: Random Load Generator / Benchmark Tool for Generic Storages (Go)
 
 
 ## Publications / Presentations
