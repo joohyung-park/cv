@@ -75,8 +75,9 @@ _Sergeant_
 - API technology
   - GraphQL
 - Hosting Environments
-  - Kubernetes, helm chart
-  - Docker, docker-compose
+  - Cloud native
+    - Dapr
+    - Kubernetes, helm
   - Linux kernel
     - I/O stack: vfs, mm, block, driver
     - CPU scheduler: cfs
