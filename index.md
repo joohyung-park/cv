@@ -11,14 +11,15 @@ Software Engineer
 
 ## Currently
 
-Based in Suwon, South Korea. Working on backend engineer
+Based in Yong-in, South Korea. Founding an intersting project
 
 
 ### Specialized in
 
-- Serving backend services via graphql on top of tough domain rules
-- Scaling out server-side applications based on microservice architecture
-- Designing / maintaining msa pods on kubernetes
+- Railway oriented programming / Domain driven development
+- Backend services with GraphQL
+- Tough domain(HIRA rule) modeling
+- CNCF applications on kubernetes
 - Designing the trade-off in between availability / consistency / query power
 - Multitiered metadata / data management
 - Performance optimization exploiting tracing techniques
@@ -27,7 +28,11 @@ Based in Suwon, South Korea. Working on backend engineer
 
 ## Occupation
 
-`Feb 2021 - now`
+`Feb 2024 - Now`
+__Finance Modeling__, ${TBD}
+_Founding Member_
+
+`Feb 2021 - Jan 2024`
 __Healthcare__, Medibloc
 _Software Engineer_
 
@@ -41,7 +46,8 @@ _Sergeant_
 
 ## Projects
 
-- Dr.palette: Cloud based EMR (Typescript)
+- Ohwl: Finance modeling (Python)
+- Dr.palette: Cloud-based EMR (Typescript)
 - Nubes: An Infinite Object Storage based on Multi-tiered Heterogeneous Distributed Storages (Go)
 - eBPF: An Kernel VM / Framework Running User-defined Tracing Logic (Go / C)
 - Strbench: A Random Load Generator / a Benchmark Tool for Generic Storages (Go)
@@ -49,7 +55,7 @@ _Sergeant_
 
 ## Publications / Presentations
 
-- Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#, Medibloc in-house presentation
+- Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#, Medibloc in-house presentation 2021
 - Nubes on NCC: Lessons Learnt from The Migration of An MSA Storage Service onto K8S, Live Session, Naver Engineering Day 2020
 - 네이버에서 분산플랫폼 개발자로 일한다는 것, Live Session, Naver Open Class 2019
 - DDZTrace: An Online Semantic-aware Block Tracing Tool, Poster Presentation, FAST 2016
@@ -58,18 +64,23 @@ _Sergeant_
 
 
 - Languages
-  - Typescript, Go, C, Bash
+  - Typescript, Python, Go, C, Bash
+- Architecture / Paradigm
+  - Event-driven architecture
+  - Railway oriented programming
+  - Domain driven development
 - Framework
-  - NestJS, TypeORM
+  - Dapr
+  - NestJS, TypeORM, ReactiveX
 - API technology
   - GraphQL
 - Hosting Environments
+  - Kubernetes, helm chart
+  - Docker, docker-compose
   - Linux kernel
     - I/O stack: vfs, mm, block, driver
     - CPU scheduler: cfs
-	- Resource management: cgroup
-  - Kubernetes, helm chart
-  - Docker, docker-compose
+    - Resource management: cgroup
 - System Tracing / Profiling
   - Data sources: kprobe, tracepoint, uprobe, usdt
   - Data extraction: eBPF, ftrace, perf
@@ -77,7 +88,7 @@ _Sergeant_
 - MSA Components
   - Databases: PostgreSQL, MongoDB, Redis, RocksDB
   - Message Queue: Kafka
-  - Coordinator: Consul
+  - Coordinator: Dapr on K8S, Consul
 - Hardware-related Knowledges
   - SSD internals(FTL, inter / intra architecture of SSD)
 
