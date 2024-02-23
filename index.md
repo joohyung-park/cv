@@ -89,7 +89,7 @@ _Sergeant_
   - Databases: PostgreSQL, MongoDB, Redis, RocksDB
   - Message Queue: Kafka
   - Coordinator: Dapr on K8S, Consul
-- Hardware-related Knowledges
+- Hardware side
   - SSD internals(FTL, inter / intra architecture of SSD)
 
 ## Education
