@@ -11,16 +11,15 @@ Software Engineer
 
 ## Currently
 
-Based in Yong-in, South Korea. Founding an intersting project
-
+Located in Yong-in, South Korea. Working on founding an exciting project
 
 ### Specialized in
 
 - Railway oriented programming / Domain driven development
 - Backend services with GraphQL
-- Tough domain(HIRA rule) modeling
-- Cloud native applications on kubernetes
-- Designing the trade-off in between availability / consistency / query power
+- Complex domain (HIRA rule) modeling
+- Cloud native applications on Kubernetes
+- Optimizing for the trade-offs among availability, consistency, and query power
 - Multitiered metadata / data management
 - Performance optimization exploiting tracing techniques
 - System overload protection by circuit breaking
@@ -46,9 +45,10 @@ _Sergeant_
 
 ## Projects
 
+- PromiseQ: Promise queue for human (Kotlin for FRP / Ruby on rails)
 - Ohwl: Finance modeling (Python)
 - Dr.palette: Cloud-based EMR (Typescript)
-- Nubes: Multi-tiered Heterogeneous Distributed Storages (Go)
+- Nubes: Multitiered Heterogeneous Distributed Storages (Go)
 - DDZ on eBPF: User-defined IO Tracing on eBPF (Go / C)
 - Strbench: Random Load Generator / Benchmark Tool for Generic Storages (Go)
 
@@ -64,14 +64,17 @@ _Sergeant_
 
 
 - Languages
-  - Typescript, Python, Go, C, Bash
+  - Typescript, Python, Go, C, Bash, Kotlin, Ruby
 - Architecture / Paradigm
+  - Hotrails
+  - Hexagonal architecture
   - Event-driven architecture
   - Railway oriented programming
   - Domain driven development
 - Framework
   - Dapr
   - NestJS, TypeORM, ReactiveX
+  - Hotrails
 - API technology
   - GraphQL
 - Hosting Environments
