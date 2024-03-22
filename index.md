@@ -64,7 +64,7 @@ _Sergeant_
 
 
 - Languages
-  - Typescript, Python, Go, C, Bash, Kotlin, Ruby
+  - Typescript, Python, Kotlin, Ruby, Go, C, Bash
 - Architecture / Paradigm
   - Hotrails
   - Hexagonal architecture
