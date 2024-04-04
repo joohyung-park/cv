@@ -66,7 +66,6 @@ _Sergeant_
 - Languages
   - Typescript, Python, Kotlin, Ruby, Go, C, Bash
 - Architecture / Paradigm
-  - Hotrails
   - Hexagonal architecture
   - Event-driven architecture
   - Railway oriented programming
