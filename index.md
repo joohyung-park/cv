@@ -6,7 +6,7 @@ title: Joohyung Park's CV
 # Joohyung Park
 Software Engineer
 
-| __E-Mail__ | [gcjoohyung@naver.com](gcjoohyung@naver.com) |
+| __E-Mail__ | [joohyung.park@on-the-ground.org](joohyung.park@on-the-ground.org) |
 | __LinkedIn__ | [linkedin.com/in/park-joohyung-47333ab2](https://www.linkedin.com/in/park-joohyung-47333ab2) |
 
 ## Currently
@@ -28,8 +28,8 @@ Located in Yong-in, South Korea. Working on founding an exciting project
 ## Occupation
 
 `Feb 2024 - Now`
-__Finance Modeling__, ${TBD}
-_Founding Member_
+__Decentralized Food Supply Chain__, ${TBD}
+_Founder_
 
 `Feb 2021 - Jan 2024`
 __Healthcare__, Medibloc
