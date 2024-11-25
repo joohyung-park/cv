@@ -28,7 +28,7 @@ Located in Yong-in, South Korea. Working on founding an exciting project
 ## Occupation
 
 `Feb 2024 - Now`
-__Decentralized Food Supply Chain__, ${TBD}
+__Decentralized Food Supply Chain__, ____on_the_ground____
 _Founder_
 
 `Feb 2021 - Jan 2024`
@@ -45,7 +45,6 @@ _Sergeant_
 
 ## Projects
 
-- PromiseQ: Promise queue for human (Kotlin for FRP / Ruby on rails)
 - Ohwl: Finance modeling (Python)
 - Dr.palette: Cloud-based EMR (Typescript)
 - Nubes: Multitiered Heterogeneous Distributed Storages (Go)
@@ -55,6 +54,7 @@ _Sergeant_
 
 ## Publications / Presentations
 
+- 가제: TypeScript/Kotlin으로 작성한 함수형 DDD, Jpub 2025
 - Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#, Medibloc in-house presentation 2021
 - Nubes on NCC: Lessons Learnt from The Migration of An MSA Storage Service onto K8S, Live Session, Naver Engineering Day 2020
 - 네이버에서 분산플랫폼 개발자로 일한다는 것, Live Session, Naver Open Class 2019
@@ -66,6 +66,7 @@ _Sergeant_
 - Languages
   - Typescript, Python, Kotlin, Ruby, Go, C, Bash
 - Architecture / Paradigm
+  - Algebraic effect
   - Hexagonal architecture
   - Event-driven architecture
   - Railway oriented programming
