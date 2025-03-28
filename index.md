@@ -4,17 +4,20 @@ title: Joohyung Park's CV
 ---
 
 # Joohyung Park
-Software Engineer
+Programmer
 
 | __E-Mail__ | [joohyung.park@on-the-ground.org](joohyung.park@on-the-ground.org) |
 | __LinkedIn__ | [linkedin.com/in/park-joohyung-47333ab2](https://www.linkedin.com/in/park-joohyung-47333ab2) |
+
 
 ## Currently
 
 Located in Yong-in, South Korea. Working on founding an exciting project
 
+
 ### Specialized in
 
+- Algebraic Effect Handler
 - Railway oriented programming / Domain driven development
 - Backend services with GraphQL
 - Complex domain (HIRA rule) modeling
@@ -28,7 +31,7 @@ Located in Yong-in, South Korea. Working on founding an exciting project
 ## Occupation
 
 `Feb 2024 - Now`
-__Decentralized Food Supply Chain__, ____on_the_ground____
+__Keep your feet on the ground__, ____on_the_ground____
 _Founder_
 
 `Feb 2021 - Jan 2024`
@@ -43,6 +46,7 @@ _Software Engineer_
 __The 5th Signal Group__, Republic of Korea Defense Communication Command, Republic of Korea Armed Forces, Ministry of National Defense
 _Sergeant_
 
+
 ## Projects
 
 - Ohwl: Finance modeling (Python)
@@ -54,17 +58,17 @@ _Sergeant_
 
 ## Publications / Presentations
 
-- 가제: TypeScript/Kotlin으로 작성한 함수형 DDD, Jpub 2025
+- 가제: TypeScript/Kotlin으로 작성하는 도메인 주도 설계와 함수형 프로그래밍, Jpub 2025
 - Domain Modeling Made Functional: Tackle Software Complexity with Domain-Driven Design and F#, Medibloc in-house presentation 2021
 - Nubes on NCC: Lessons Learnt from The Migration of An MSA Storage Service onto K8S, Live Session, Naver Engineering Day 2020
 - 네이버에서 분산플랫폼 개발자로 일한다는 것, Live Session, Naver Open Class 2019
 - DDZTrace: An Online Semantic-aware Block Tracing Tool, Poster Presentation, FAST 2016
 
+
 ## Technical Skills
 
-
 - Languages
-  - Typescript, Python, Kotlin, Ruby, Go, C, Bash
+  - Go, Typescript, Python, Kotlin, Ruby, C, Bash
 - Architecture / Paradigm
   - Algebraic effect
   - Hexagonal architecture
@@ -94,6 +98,7 @@ _Sergeant_
   - Coordinator: Dapr on K8S, Consul
 - Hardware side
   - SSD internals(FTL, inter / intra architecture of SSD)
+
 
 ## Education
 
