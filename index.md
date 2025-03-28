@@ -31,7 +31,7 @@ Located in Yong-in, South Korea. Working on founding an exciting project
 ## Occupation
 
 `Feb 2024 - Now`
-__Keep your feet on the ground__, ____on_the_ground____
+____on_the_ground____
 _Founder_
 
 `Feb 2021 - Jan 2024`
