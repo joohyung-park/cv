@@ -6,8 +6,8 @@ title: Joohyung Park's CV
 # Joohyung Park
 Programmer
 
-| __E-Mail__ | [joohyung.park@on-the-ground.org](joohyung.park@on-the-ground.org) |
-| __LinkedIn__ | [linkedin.com/in/joohyung-park-47333ab2/](linkedin.com/in/joohyung-park-47333ab2/) |
+| __E-Mail__ | joohyung.park@on-the-ground.org |
+| __LinkedIn__ | linkedin.com/in/joohyung-park-47333ab2/ |
 
 
 ## Currently
