@@ -7,7 +7,7 @@ title: Joohyung Park's CV
 Programmer
 
 | __E-Mail__ | [joohyung.park@on-the-ground.org](joohyung.park@on-the-ground.org) |
-| __LinkedIn__ | [linkedin.com/in/park-joohyung-47333ab2](https://www.linkedin.com/in/park-joohyung-47333ab2) |
+| __LinkedIn__ | [linkedin.com/in/joohyung-park-47333ab2/](linkedin.com/in/joohyung-park-47333ab2/) |
 
 
 ## Currently
