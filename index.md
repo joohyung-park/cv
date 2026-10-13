@@ -11,7 +11,7 @@ Seoul, KR · [joohyung.park@on-the-ground.org](mailto:joohyung.park@on-the-groun
 
 ## Summary
 
-Backend engineer working on distributed systems and complex domain modeling. 7 years of industry experience at NAVER and Weavrcare, followed by technical book translation and open-source language/runtime work. At NAVER, built and migrated a 100PB+ object storage platform. At Weavrcare (Doctor Palette EMR), redesigned the health insurance billing domain, governed by a 1,000-page guideline revised every 3–6 months.
+Backend engineer working on distributed systems and complex domain modeling. 8 years of industry experience at NAVER and Weavrcare, followed by technical book translation and open-source language/runtime work. At NAVER, built and migrated a 100PB+ object storage platform. At Weavrcare (Doctor Palette EMR), redesigned the health insurance billing domain, governed by a 1,000-page guideline revised every 3–6 months.
 
 
 ## Skills
@@ -116,7 +116,7 @@ Seoul, KR | joohyung.park@on-the-ground.org | [Linktree](https://linktr.ee/joohy
 
 ## 요약
 
-분산 시스템과 복잡한 도메인 모델링을 다뤄온 개발자입니다. NAVER와 EMR에서 7년간 실무를 했고, 이후 기술 서적 편역과 오픈소스 언어·런타임 개발을 이어오고 있습니다. NAVER에서는 100PB+ 오브젝트 스토리지 플랫폼을 구축·이관했고, 위버케어(닥터팔레트 EMR)에서는 3~6개월마다 개정되는 1,000쪽 분량의 건강보험 청구 도메인을 재설계했습니다.
+분산 시스템과 복잡한 도메인 모델링을 다뤄온 개발자입니다. NAVER와 EMR에서 8년간 실무를 했고, 이후 기술 서적 편역과 오픈소스 언어·런타임 개발을 이어오고 있습니다. NAVER에서는 100PB+ 오브젝트 스토리지 플랫폼을 구축·이관했고, 위버케어(닥터팔레트 EMR)에서는 3~6개월마다 개정되는 1,000쪽 분량의 건강보험 청구 도메인을 재설계했습니다.
 
 ## 기술 스택
 
