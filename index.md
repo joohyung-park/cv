@@ -4,7 +4,7 @@ title: Joohyung Park's CV
 ---
 
 # Joohyung Park
-Backend Engineer
+Software Engineer
 
 Seoul, KR · [joohyung.park@on-the-ground.org](mailto:joohyung.park@on-the-ground.org) · [Linktree](https://linktr.ee/joohyung.park) · [GitHub](https://github.com/on-the-ground) · [LinkedIn](https://www.linkedin.com/in/joohyung-park-47333ab2/)
 
@@ -106,3 +106,89 @@ Advisor: Prof. Jin-Soo Kim
 
 ### Sergeant, 5th Signal Group, ROK Defense Communication Command
 `May 2011 – Feb 2013`
+
+---
+
+# 박주형
+Software Engineer
+
+Seoul, KR | joohyung.park@on-the-ground.org | [Linktree](https://linktr.ee/joohyung.park) | [Github](https://github.com/on-the-ground) | [LinkedIn](https://www.linkedin.com/in/joohyung-park-47333ab2/)
+
+## 요약
+
+분산 시스템과 복잡한 도메인 모델링을 다뤄온 개발자입니다. NAVER와 EMR에서 7년간 실무를 했고, 이후 기술 서적 편역과 오픈소스 언어·런타임 개발을 이어오고 있습니다. NAVER에서는 100PB+ 오브젝트 스토리지 플랫폼을 구축·이관했고, 위버케어(닥터팔레트 EMR)에서는 3~6개월마다 개정되는 1,000쪽 분량의 건강보험 청구 도메인을 재설계했습니다.
+
+## 기술 스택
+
+- **Languages:** Go, TypeScript, JavaScript, Kotlin, Java, Python
+- **Data / Messaging:** MySQL, PostgreSQL, Redis, MongoDB, Kafka
+- **Infra:** Kubernetes, Helm, Consul, Datadog
+- **Systems:** Linux 커널 I/O 스택, eBPF·ftrace·perf 트레이싱
+- **Concepts:** DDD, Event-Driven Architecture, Stream Processing
+
+## 경력
+
+### Weavrcare | Backend Developer, Doctor Palette EMR | 2021.01 – 2024.01
+
+건강보험 청구 시스템 재설계 및 배치 파이프라인 최적화
+
+- 1,000쪽 분량의 청구 작성요령을 bounded context 단위로 분리하고, ADT로 불필요한 추상 없이 청구 규칙을 TypeScript 타입에 인코딩해 3~6개월 주기 개정의 영향 범위 격리
+- ViewModel 기반 GraphQL 스키마를 설계해 도메인 로직과 UI 관심사 분리
+- 멀티테넌트 환경의 인메모리 청구 배치를 Node.js Stream 아키텍처로 전환해, 청구 건당 메모리를 100MB에서 5MB 미만으로 줄이고 청구 집중 시기의 OOM 해소
+
+### NAVER | Storage Platform Developer, Nubes | 2016.09 – 2021.01
+
+100PB 오브젝트 스토리지 플랫폼 구축 및 이관
+
+- 레거시 분산 스토리지의 100PB 데이터와 수십억 건 메타데이터를 Shadow-write / Dual-read로 Nubes에 서비스 무중단 이관
+- 전사 KV 캐시 장애가 Gateway 연쇄 장애로 번진 상황에서 Gateway rate limiting과 읽기 트래픽의 전용 클러스터 절체로 복구하고, 재발 방지를 위한 back pressure 아키텍처 설계
+- 수백 개 MSA 인스턴스의 long polling으로 인한 Consul 병목을 진단하고, 계층적 이벤트 전파 구조로 리팩토링해 오케스트레이터 과부하 해소
+- VM 기반 배포 환경을 Kubernetes/Helm 기반 MSA 운영 환경으로 전환
+
+### Subsea Cable | 감사 가능한 에이전트 워크플로를 위한 DSL 및 런타임 | 2026 – 현재
+
+수행 과정의 추적·감사가 필수인 고책임 도메인(금융, 대규모 데이터 마이그레이션)에서 에이전트의 워크플로를 관리하는 언어
+
+- 선언적 계획(`.vyg`)을 lazy deduction으로 DAG/Stream에 전개해, 실행 중에도 reduction rule 수정 지원
+    
+- 에이전트의 의도(Goal)와 실제 연산(Leaf) 간 계보를 불변으로 기록해 감사 시 추적 지원
+    
+- 목적 지향 goal space와 수단 지향 host를 분리하고 goal의 arity·cardinality를 명세해, 에이전트 폭주를 시스템 레벨에서 방지
+
+### Codeit | Node.js Backend Lead Instructor (Contract) | 2025.11 – 2025.12
+
+- 비전공자 대상 Node.js 백엔드 부트캠프 주강사로서 강의 내용 설계, 코드 리뷰·평가 총괄
+
+### 지은이온더그라운드 (제이펍) | Technical Translator | 2024.06 – 2025.11
+
+- Domain Modeling Made Functional 한국어판 편역. F# 원서의 전체 예제를 Kotlin·TypeScript로 재작성하는 조건으로 원저자·PragProg·제이펍과 직접 협의해 출판
+- 편역 과정에서 익힌 Arrow-kt effect handler 패턴을 오픈소스 Effect-ive Programming으로 확장
+
+## 개인 프로젝트 및 오픈소스
+ 
+- **Effect-ive Programming:** JVM, JS, Go 환경에서 effect와 capability를 전용 핸들링 액터에 위임하는 라이브러리
+    
+- **Event Streaming System:** Python, Bytewax 기반 실시간 스트림 프로세서 프로토타입
+    
+- **Strbench:** 범용 스토리지 대상 랜덤 부하 생성 및 벤치마크 도구 (Go)
+    
+- **DDZ on eBPF:** eBPF 기반 사용자 정의 I/O 트레이싱 (Go / C)
+    
+
+## 발표 및 저술
+
+- [Effect_ive Go](https://docs.google.com/presentation/d/e/2PACX-1vRHMVHljR_yqM3QicLxAlXbXbrninACov2dRr0UcftGkkKgNHBDfBNxqvutp0uEdQ/pub?start=false&loop=false&delayms=3000&slide=id.g273ba00e4dc_0_122): GopherCon 2025
+- [Beloved Functional Programming](https://joohyung-park.my.canva.site/beloved-functional-programming-en): liftIO 2025
+- Domain Modeling Made Functional: 닥터팔레트 팀 사내 발표, 2021
+- Nubes on NCC: Lessons Learnt from the Migration of an MSA Storage Service onto K8S: NAVER Engineering Day 2020 라이브 세션
+- 네이버에서 분산플랫폼 개발자로 일한다는 것: NAVER Open Class 2019 라이브 세션
+- DDZTrace: An Online Semantic-aware Block Tracing Tool: USENIX FAST 2016 포스터
+
+## 학력
+
+- **성균관대학교 전자전기컴퓨터공학과 석사** | 2014.09 – 2016.08 (지도교수: 김진수)
+- **성균관대학교 반도체시스템공학과 학사** | 2007.03 – 2014.09
+
+## 병역
+
+- **국군지휘통신사령부 제5정보통신단 · 병장** | 2011.05 – 2013.02
