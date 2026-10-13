@@ -83,9 +83,11 @@ User-defined I/O tracing on eBPF (Go / C)
 
 ## Talks & Publications
 
+- [*Effect_ive Go*](https://docs.google.com/presentation/d/e/2PACX-1vRHMVHljR_yqM3QicLxAlXbXbrninACov2dRr0UcftGkkKgNHBDfBNxqvutp0uEdQ/pub?start=false&loop=false&delayms=3000&slide=id.g273ba00e4dc_0_122) — GopherCon 2025
+- [*Beloved Functional Programming*](https://joohyung-park.my.canva.site/beloved-functional-programming-en) — liftIO 2025
+- *Domain Modeling Made Functional* — In-house talk, Doctor Palette team, 2021
 - *Nubes on NCC: Lessons Learnt from the Migration of an MSA Storage Service onto K8S* — Live session, NAVER Engineering Day 2020
 - *네이버에서 분산플랫폼 개발자로 일한다는 것* (Working as a Distributed Platform Developer at NAVER) — Live session, NAVER Open Class 2019
-- *Domain Modeling Made Functional* — In-house talk, Doctor Palette team, 2021
 - *DDZTrace: An Online Semantic-aware Block Tracing Tool* — Poster, USENIX FAST 2016
 
 
