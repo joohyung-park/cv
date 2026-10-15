@@ -44,7 +44,8 @@ Built and migrated a 100PB object storage platform
 - Diagnosed a Consul bottleneck caused by long polling from hundreds of microservice instances and refactored to hierarchical event propagation, resolving orchestrator overload
 - Moved VM-based process deployments to microservices on Kubernetes and Helm
 
-### Subsea Cable · DSL and runtime for auditable agent workflows · `2026 – Present`
+### Subsea Cable · DSL and runtime for auditable agent workflows 
+`2026 – Present` · [__C Lang](https://4gentsinc.github.io/subsea_cable_webpages/)
 
 Workflow language for agents in high-responsibility domains (finance, large-scale data migration) where traceability and audit are required
 
@@ -66,7 +67,8 @@ Workflow language for agents in high-responsibility domains (finance, large-scal
 
 ## Personal Projects & Open Source
 
-### Agent Harness Protocol · Python port of Kotlin AHP 0.2.3 · `Sep 2026 – Present` · [PyPI](https://pypi.org/project/agent-harness-protocol/)
+### Agent Harness Protocol · An Abstraction Port of Agent Harness
+`Sep 2026 – Present` · [PyPI](https://pypi.org/project/agent-harness-protocol/)
 
 Business-facing port for delegating work to agent harnesses. Python expression of Kotlin 0.2.3 contract.
 
@@ -152,7 +154,8 @@ Seoul, KR | joohyung.park@on-the-ground.org | [Linktree](https://linktr.ee/joohy
 - 수백 개 MSA 인스턴스의 long polling으로 인한 Consul 병목을 진단하고, 계층적 이벤트 전파 구조로 리팩토링해 오케스트레이터 과부하 해소
 - VM 기반 배포 환경을 Kubernetes/Helm 기반 MSA 운영 환경으로 전환
 
-### Subsea Cable | 감사 가능한 에이전트 워크플로를 위한 DSL 및 런타임 | 2026 – 현재
+### Subsea Cable Language | 감사 가능한 에이전트 워크플로를 위한 DSL 및 런타임 
+`2026 – 현재` | [__C Lang](https://4gentsinc.github.io/subsea_cable_webpages/)
 
 수행 과정의 추적·감사가 필수인 고책임 도메인(금융, 대규모 데이터 마이그레이션)에서 에이전트의 워크플로를 관리하는 언어
 
@@ -173,7 +176,8 @@ Seoul, KR | joohyung.park@on-the-ground.org | [Linktree](https://linktr.ee/joohy
 
 ## 개인 프로젝트 및 오픈소스
 
-### Agent Harness Protocol | Kotlin AHP 0.2.3 Python 포트 | `2026.09 – 현재` 
+### Agent Harness Protocol | 에이전트 하네스 공통 추상 포트
+`Sep 2026 – Present` · [PyPI](https://pypi.org/project/agent-harness-protocol/)
 
 에이전트 하네스에 작업을 위임하는 비즈니스용 포트. Kotlin 0.2.3 계약의 Python 구현.
 
