@@ -44,6 +44,14 @@ Built and migrated a 100PB object storage platform
 - Diagnosed a Consul bottleneck caused by long polling from hundreds of microservice instances and refactored to hierarchical event propagation, resolving orchestrator overload
 - Moved VM-based process deployments to microservices on Kubernetes and Helm
 
+### Subsea Cable · DSL and runtime for auditable agent workflows · `2026 – Present`
+
+Workflow language for agents in high-responsibility domains (finance, large-scale data migration) where traceability and audit are required
+
+- Lazily deduces declarative plans (`.vyg`) into DAGs/streams, allowing reduction rules to change at runtime
+- Records lineage between agent intent (Goal) and executed operations (Leaf) as immutable state for audit tracing
+- Separates the goal space (ends) from the host (means) and specifies goal arity and cardinality, preventing runaway agent behavior at the system level
+
 ### Codeit · Node.js Backend Lead Instructor (Contract)
 `Nov 2025 – Dec 2025`
 
@@ -56,17 +64,16 @@ Built and migrated a 100PB object storage platform
 - Negotiated the rewrite with the author, PragProg, and JPub as a condition of the Korean edition
 - Extended the Arrow-kt effect handler pattern learned during translation into the open-source Effect-ive Programming libraries
 
-
 ## Personal Projects & Open Source
 
-### Subsea Cable · DSL and runtime for auditable agent workflows
-`2026 – Present`
+### Agent Harness Protocol · Python port of Kotlin AHP 0.2.3 · `Sep 2026 – Present` · [PyPI](https://pypi.org/project/agent-harness-protocol/)
 
-Workflow language for agents in high-responsibility domains (finance, large-scale data migration) where traceability and audit are required
+Business-facing port for delegating work to agent harnesses. Python expression of Kotlin 0.2.3 contract.
 
-- Lazily deduces declarative plans (`.vyg`) into DAGs/streams, allowing reduction rules to change at runtime
-- Records lineage between agent intent (Goal) and executed operations (Leaf) as immutable state for audit tracing
-- Separates the goal space (ends) from the host (means) and specifies goal arity and cardinality, preventing runaway agent behavior at the system level
+- Ported Kotlin AHP 0.2.3 to Python async API (async with, AsyncIterator, frozen dataclasses, Error suffixes)
+- Enforced 4 terminal outcomes (Completed/Failed/Cancelled/Unresolved); separated None (unknown/missing) from 0/empty output/usage
+- Built 58 conformance scenarios across admission, lifecycle, interaction, cleanup, persistence, bounds, output, accounting; assertions use evidence from execution/storage boundaries, not adapter-reported state
+- Published protocol + suites to PyPI with 0 runtime deps; isolated LangGraph adapter as `agent-harness-protocol-langgraph` with explicit support matrix
 
 ### Effect-ive Programming
 Library that delegates effect and capability handling to dedicated handler actors, for the JVM, JavaScript, and Go
@@ -165,14 +172,27 @@ Seoul, KR | joohyung.park@on-the-ground.org | [Linktree](https://linktr.ee/joohy
 - 편역 과정에서 익힌 Arrow-kt effect handler 패턴을 오픈소스 Effect-ive Programming으로 확장
 
 ## 개인 프로젝트 및 오픈소스
- 
-- **Effect-ive Programming:** JVM, JS, Go 환경에서 effect와 capability를 전용 핸들링 액터에 위임하는 라이브러리
+
+### Agent Harness Protocol | Kotlin AHP 0.2.3 Python 포트 | `2026.09 – 현재` 
+
+에이전트 하네스에 작업을 위임하는 비즈니스용 포트. Kotlin 0.2.3 계약의 Python 구현.
+
+- Kotlin AHP 0.2.3 계약을 Python async API로 포팅 (async with, AsyncIterator, frozen dataclass)
+- 종료 상태 4종 구분 (Completed/Failed/Cancelled/Unresolved), 사용량·출력에서 None과 0/빈 값 분리
+- 실행·저장소 경계에서 관측한 증거로 검증하는 58개 conformance 시나리오 작성 (수락·수명주기·상호작용·정리·영속성·실행 제한 등)
+- 프로토콜·테스트만 PyPI 배포, LangGraph 어댑터는 별도 패키지로 분리해 지원 범위 문서화
+
+### **Effect-ive Programming:** 
+JVM, JS, Go 환경에서 effect와 capability를 전용 핸들링 액터에 위임하는 라이브러리
     
-- **Event Streaming System:** Python, Bytewax 기반 실시간 스트림 프로세서 프로토타입
+### **Event Streaming System:** 
+Python, Bytewax 기반 실시간 스트림 프로세서 프로토타입
     
-- **Strbench:** 범용 스토리지 대상 랜덤 부하 생성 및 벤치마크 도구 (Go)
+### **Strbench:** 
+범용 스토리지 대상 랜덤 부하 생성 및 벤치마크 도구 (Go)
     
-- **DDZ on eBPF:** eBPF 기반 사용자 정의 I/O 트레이싱 (Go / C)
+### **DDZ on eBPF:** 
+eBPF 기반 사용자 정의 I/O 트레이싱 (Go / C)
     
 
 ## 발표 및 저술
